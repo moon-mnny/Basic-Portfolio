@@ -134,21 +134,22 @@ input[type=text] {
     cursor: pointer;
   }
 /* Style for Portfolio.html */
-.gallery {
-  
-}
+
 div.gallery_photo {
     position: relative;
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
     width: 240px;
+    max-height: 320px;
   }
   
   div.gallery_photo img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    max-height: 320px;
     flex: 1;
+    object-fit: cover;
   }
   
   div.gallery_title {
