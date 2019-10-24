@@ -134,27 +134,27 @@ input[type=text] {
     cursor: pointer;
   }
 /* Style for Portfolio.html */
+.gallery {
+  
+}
 div.gallery_photo {
     position: relative;
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 180px;
-  }
-  
-  div.gallery_photo:hover {
-    border: 1px solid #777;
+    width: 240px;
   }
   
   div.gallery_photo img {
     width: 100%;
     height: auto;
+    flex: 1;
   }
   
   div.gallery_title {
     background-color: #4aaaa5; 
     position: absolute;
-    width:150px;
+    width:210px;
     bottom: 10px;
     padding: 15px;
     text-align: center;
@@ -169,6 +169,7 @@ div.gallery_photo {
     transform: translate(0%,-50%);
     }
 .footer {
+    position: relative;
     margin: 0;
     text-align: center;
     font-size:6pt;
